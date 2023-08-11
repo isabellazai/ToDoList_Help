@@ -34,7 +34,7 @@ struct NewToDoView: View {
             TextField("Enter the description", text: $title)
                 .frame(height: 45.0)
                 .border(/*@START_MENU_TOKEN@*/Color.gray/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
-                .padding()
+                .padding() 
             
             //Add Toggle here that is binded to isImportant (isOn: $isImportant) and the text "Is it important?"
             Toggle(isOn: $isImportant) {
